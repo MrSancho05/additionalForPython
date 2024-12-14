@@ -1,0 +1,68 @@
+import math
+print('TASK 1')
+ism = input('Enter your name: ')
+familiya = input('Enter your last name: ')
+print(ism + ' ' + familiya)
+
+print('TASK 2')
+name = input('Enter your name: ')
+age = int(input('Enter your age: '))
+print(f'Sizning ismingiz {name}, yoshingiz {age}')
+
+print('TASK 3')
+txt = input('Enter something: ')
+print(txt.upper())
+print(txt.lower())
+print(txt.capitalize())
+print(txt.title())
+
+print('TASK 4')
+txt = input('Enter something: ')
+print(txt.strip())
+print(txt.lstrip())
+print(txt.rstrip())
+
+print('TASK 5')
+name = input('Enter your name: ')
+age = int(input('Enter your age: '))
+favouriteColor = input('Enter your favourite color: ')
+print(f"Salom {name}, siz {age} yoshdasiz va sizning sevimli rangingiz {favouriteColor}")
+
+print('TASK 6')
+name = input('Enter your with lowerCase: ')
+print(name.upper())
+print(name.capitalize())
+
+print('TASK 7')
+a = int(input('Enter first number: '))
+b = int(input('Enter second number: '))
+print(f'a + b = {a + b}')
+print(f'a - b = {a - b}')
+print(f'a * b = {a * b}')
+print(f'a / b = {a / b}')
+
+print('TASK 8')
+a = float(input('Enter 1st float number: '))
+b = float(input('Enter 2nd float number: '))
+print(a / b)
+print(a ** b)
+
+print('TASK 9')
+variable = input('Enter something: ')
+print(type(variable))
+
+print('TASK 10')
+product1 = float(input('Enter price of 1st product: '))
+product2 = float(input('Enter price of 2nd product: '))
+print(product1 > product2)
+
+print('TASK 11')
+num = int(input('Enter 1st number: '))
+num2 = int(input('Enter 2nd number: '))
+num3 = int(input('Enter 3rd number: '))
+print((num + num2 + num3) / 3)
+
+print('TASK 12')
+num = int(input('Enter positive number: '))
+print(num ** 0.5)
+print(math.sqrt(num))
